@@ -21,9 +21,9 @@
 | Huddle Landing Page | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/huddle-landing-page-with-single-introductory-section-master/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/huddle-landing-page-with-single-introductory-section-master" target="_blank">Repo</a>  |
 | NFT Preview Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/nft-preview-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/nft-preview-card-component-main" target="_blank">Repo</a>  |
 | Order Summary Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/order-summary-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/order-summary-component-main" target="_blank">Repo</a>  |
-| 13 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
-| 14 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
-| 15 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
-| 16 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
+| QR Code Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/QR%20Code%20Component/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/QR%20Code%20Component" target="_blank">Repo</a>  |
+| PING Coming Soon Page | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/ping-coming-soon-page-master/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/ping-coming-soon-page-master" target="_blank">Repo</a>  |
+| Profile Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/profile-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/profile-card-component-main" target="_blank">Repo</a>  |
+| Stats Preview Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/stats-preview-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/stats-preview-card-component-main" target="_blank">Repo</a>  |
 
 </div>

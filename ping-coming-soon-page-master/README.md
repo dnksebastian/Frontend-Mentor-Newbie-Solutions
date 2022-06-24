@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-html-css-js-31mnlnQjp](https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-html-css-js-31mnlnQjp)
-- Live Site URL: [https://dnksebastian.github.io/PING-Coming-Soon-Page/](https://dnksebastian.github.io/PING-Coming-Soon-Page/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/ping-coming-soon-page-master/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/ping-coming-soon-page-master/)
 
 ## My process
 

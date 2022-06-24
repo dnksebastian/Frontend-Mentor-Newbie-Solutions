@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/htmlcss-stats-preview-card-FSOUQUBmw](https://www.frontendmentor.io/solutions/htmlcss-stats-preview-card-FSOUQUBmw)
-- Live Site URL: [https://dnksebastian.github.io/stats-preview-component/](https://dnksebastian.github.io/stats-preview-component/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/stats-preview-card-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/stats-preview-card-component-main/)
 
 ## My process
 

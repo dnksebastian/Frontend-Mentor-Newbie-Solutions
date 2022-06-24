@@ -22,7 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/htmlcss-profile-card-component-rBokRve_r](https://www.frontendmentor.io/solutions/htmlcss-profile-card-component-rBokRve_r)
-- Live Site URL: [https://dnksebastian.github.io/profile-card-component/](https://dnksebastian.github.io/profile-card-component/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/profile-card-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/profile-card-component-main/)
 
 ## My process
 
