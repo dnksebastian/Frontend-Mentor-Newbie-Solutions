@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./main.js" defer></script>
+
+
+</head>
+
+<body>
+
+  <main>
+
+    <div class="wrapper">
+
+      <section class="top-info">
+        <div class="logo-wrapper">
+          <img src="./images/logo.svg" alt="PING. Logo" id="logo">
+        </div>
+        <h1>We are launching <span class="highlight">soon!</span></h1>
+        <p>Subscribe and get notified</p>
+      </section>
+
+      <section class="notify-form">
+        <form id="main-form" method="GET" novalidate>
+          <div class="helper">
+            <input type="email" name="email" id="email-input" placeholder="Your email address..." required>
+            <aside class="validate-warning">Please provide a valid email address</aside>
+          </div>
+          <button class="btn" id="submit-btn">Notify Me</button>
+        </form>
+      </section>
+
+      <section class="image-wrapper">
+        <img src="./images/illustration-dashboard.png" alt="Service dashboard" id="illu-dash">
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="social-container">
+      <i class="fa-brands fa-facebook-f fa-border"></i>
+      <i class="fa-brands fa-twitter fa-border"></i>
+      <i class="fa-brands fa-instagram fa-border"></i>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Sebastian</a>.
+    </p>
+    <p>&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

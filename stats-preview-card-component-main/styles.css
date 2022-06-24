@@ -1,0 +1,270 @@
+/* - Very dark blue (main background): hsl(233, 47%, 7%)
+- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+- Soft violet (accent): hsl(277, 64%, 61%)
+
+### Neutral
+
+- White (main heading, stats): hsl(0, 0%, 100%)
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400 */
+
+/* font-family: 'Inter', sans-serif;
+
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+
+  --normal-white: hsl(0, 0%, 100%);
+  --slight-white-p: hsla(0, 0%, 100%, 0.75);
+  --slight-white-h: hsla(0, 0%, 100%, 0.6);
+
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}
+
+html,
+body,
+main {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-desaturated-blue);
+  width: 86.5%;
+  height: 81.5%;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 324px;
+  min-height: 779px;
+  max-width: 455px;
+}
+
+#hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: 24rem;
+  overflow: hidden;
+  object-fit: contain;
+  /* background-color: var(--soft-violet); */
+}
+
+#hero-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--soft-violet);
+  opacity: 40%;
+  /* mix-blend-mode: hard-light; */
+}
+#hero-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 40%;
+}
+
+#mobile-hero-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#desktop-hero-img {
+  display: none;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+#card-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 50%;
+  padding: 0 3rem;
+  /* background-color: rgba(128, 255, 0, 0.253); */
+}
+
+#card-caption h1 {
+  color: var(--normal-white);
+  margin-top: 2.5rem;
+  font-size: 2.8rem;
+  margin-bottom: -2rem;
+}
+
+.highlight {
+  color: var(--soft-violet);
+}
+
+#card-caption p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--slight-white-p);
+}
+
+#stats-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+li > span {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--slight-white-p);
+  margin-bottom: 0.8rem;
+}
+
+.stat-num {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--normal-white);
+}
+
+.stat-name {
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: var(--slight-white-p);
+}
+.stat-element:last-of-type .stat-num {
+  text-transform: uppercase;
+}
+
+.attribution {
+  display: none;
+  font-size: 10px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 885px) {
+  #card-wrapper {
+    flex-direction: row-reverse;
+    width: 77%;
+    height: 56%;
+    min-width: 940px;
+    max-width: 1187px;
+    min-height: 374px;
+  }
+
+  #hero-wrapper {
+    width: 48.5%;
+    height: 100%;
+    min-width: 45%;
+  }
+
+  #mobile-hero-img {
+    display: none;
+  }
+
+  #desktop-hero-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #content-wrapper {
+    padding: 5rem;
+    align-items: normal;
+  }
+
+  #card-caption {
+    padding: 22% 0;
+    text-align: left;
+  }
+
+  #card-caption h1 {
+    padding: 1.9rem;
+    margin: 0;
+    font-size: 3.6rem;
+  }
+
+  #card-caption p {
+    padding: 1rem 10rem 0 2rem;
+    /* font-size: 1.5rem;
+    line-height: 2.5rem; */
+  }
+
+  #stats-wrapper {
+    padding: 0.8rem;
+    padding-left: 1rem;
+  }
+
+  ul {
+    flex-direction: row;
+    align-items: flex-end;
+    /* justify-content:space-around; */
+  }
+
+  .stat-element {
+    padding-right: 6.5rem;
+  }
+
+  li > span {
+    text-align: left;
+  }
+}
