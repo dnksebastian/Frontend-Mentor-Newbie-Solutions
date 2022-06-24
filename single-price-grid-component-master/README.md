@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-html-css--t1y5-T1B](https://www.frontendmentor.io/solutions/single-price-grid-component-html-css--t1y5-T1B)
-- Live Site URL: [https://dnksebastian.github.io/Single-Price-Grid-Component/](https://dnksebastian.github.io/Single-Price-Grid-Component/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/single-price-grid-component-master/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/single-price-grid-component-master/)
 
 ## My process
 

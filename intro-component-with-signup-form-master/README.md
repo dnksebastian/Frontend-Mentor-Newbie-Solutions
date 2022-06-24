@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-signup-form-html-css-js-VK9NNL8q-](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-html-css-js-VK9NNL8q-)
-- Live Site URL: [https://dnksebastian.github.io/Intro-Component-With-Signup-Form/](https://dnksebastian.github.io/Intro-Component-With-Signup-Form/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/intro-component-with-signup-form-master/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/intro-component-with-signup-form-master/)
 
 ## My process
 

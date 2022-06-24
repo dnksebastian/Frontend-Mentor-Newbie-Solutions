@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-html-css-2RzU3L4b4](https://www.frontendmentor.io/solutions/social-proof-section-html-css-2RzU3L4b4)
-- Live Site URL: [https://dnksebastian.github.io/Social-Proof-Section/](https://dnksebastian.github.io/Social-Proof-Section/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/social-proof-section-master/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/social-proof-section-master/)
 
 ## My process
 

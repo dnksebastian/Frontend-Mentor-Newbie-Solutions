@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-html-css-js-rLS9mq7qN](https://www.frontendmentor.io/solutions/article-preview-component-html-css-js-rLS9mq7qN)
-- Live Site URL: [https://dnksebastian.github.io/Article-Preview-Component/](https://dnksebastian.github.io/Article-Preview-Component/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/article-preview-component-master/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/article-preview-component-master/)
 
 ## My process
 
