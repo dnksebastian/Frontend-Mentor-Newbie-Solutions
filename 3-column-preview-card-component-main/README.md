@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/vanilla-htmlcss-3column-preview-card-component-x1cjVOvlp](https://www.frontendmentor.io/solutions/vanilla-htmlcss-3column-preview-card-component-x1cjVOvlp)
-- Live Site URL: [https://dnksebastian.github.io/3-column-preview-card-component/](https://dnksebastian.github.io/3-column-preview-card-component/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/3-column-preview-card-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/3-column-preview-card-component-main/)
 
 ## My process
 

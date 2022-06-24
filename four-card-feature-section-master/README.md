@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-FjoX0rXhO](https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-FjoX0rXhO)
-- Live Site URL: [https://dnksebastian.github.io/Four-Card-Feature-Section/](https://dnksebastian.github.io/Four-Card-Feature-Section/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/four-card-feature-section-master/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/four-card-feature-section-master/)
 
 ## My process
 

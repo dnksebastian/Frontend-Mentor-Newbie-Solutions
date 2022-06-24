@@ -9,8 +9,8 @@
 
 | Challange name | Live Page | Repository |
 | :------------: | :-------: | :--------: |
-| 1 |  <a href="" target="_blank">Live</a> | <a href="" target="_blank">Repo</a> |
-| 2 |  <a href="" target="_blank">Live</a>  |  <a href="" target="_blank">Repo</a>  |
-| 3| <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
-| 4 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
+| 3 Column Preview Card Component |  <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/3-column-preview-card-component-main/" target="_blank">Live</a> | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/3-column-preview-card-component-main" target="_blank">Repo</a> |
+| FAQ Accordion Card |  <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/faq-accordion-card-main/" target="_blank">Live</a>  |  <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/faq-accordion-card-main" target="_blank">Repo</a>  |
+| Four Card Feature Section | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/four-card-feature-section-master/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/four-card-feature-section-master" target="_blank">Repo</a>  |
+| Interactive Rating Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/interactive-rating-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/interactive-rating-component-main" target="_blank">Repo</a>  |
 </div>

@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-html-css-js-OzefbQbq4](https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-html-css-js-OzefbQbq4)
-- Live Site URL: [https://dnksebastian.github.io/FAQ-accordion-card/](https://dnksebastian.github.io/FAQ-accordion-card/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/faq-accordion-card-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/faq-accordion-card-main/)
 
 ## My process
 

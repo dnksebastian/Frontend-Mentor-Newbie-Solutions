@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-js-rkB7MeGVq](https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-js-rkB7MeGVq)
-- Live Site URL: [https://dnksebastian.github.io/Interactive-Rating-Component/](https://dnksebastian.github.io/Interactive-Rating-Component/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/interactive-rating-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/interactive-rating-component-main/)
 
 ## My process
 
