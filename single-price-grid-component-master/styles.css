@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --bright-cyan: hsl(179, 47%, 52%);
+
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+
+  font-size: 10px;
+  font-family: "Karla", sans-serif;
+}
+
+body,
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-gray);
+}
+
+.component-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 83%;
+  width:311.25px;
+  min-height: 722px;
+  height: 83%;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  box-shadow: 0px 2rem 5rem -2rem var(--grayish-blue);
+}
+
+/* First field */
+.cta-description,
+.subscription-details,
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 2.6rem 1.9rem 2.6rem 2.2rem;
+}
+
+h1 {
+  color: var(--cyan);
+  font-size: 2rem;
+}
+
+h3 {
+  color: var(--bright-yellow);
+  font-size: 1.5rem;
+}
+
+.desc {
+  color: var(--grayish-blue);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-bottom: 0.7rem;
+}
+
+/* Second field */
+.subscription-details {
+  background-color: var(--cyan);
+  gap: 1.6rem;
+}
+
+.subscription-details h2 {
+  color: white;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.subscription-details p {
+  color: var(--light-gray);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.price {
+  vertical-align: middle;
+  color: white;
+  font-size: 3.1rem;
+  font-weight: 700;
+  margin-right: 1.5rem;
+}
+
+.sub-info {
+  margin-bottom: 0.8rem;
+}
+
+.btn {
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1.5rem 0rem;
+  background-color: var(--bright-yellow);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0rem 0.2rem 1rem grey;
+}
+
+.btn:hover,
+.btn:active {
+  color: rgb(168, 166, 166);
+  background-color: hsl(71, 95%, 59%);
+}
+
+/* Third field */
+
+.features {
+  background-color: var(--bright-cyan);
+  flex: 1;
+  color: var(--light-gray);
+}
+
+.features h2 {
+  font-size: 1.8rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+li {
+  margin-bottom: 0.2rem;
+}
+
+/* Footer */
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1400px) {
+  .component-wrapper {
+    flex-direction: row;
+    width: 44%;
+    height: 59.5%;
+    min-width: 633.6px;
+    min-height: 476px;
+    flex-wrap: wrap;
+  }
+
+  .cta-description,
+  .subscription-details,
+  .features {
+    gap: 2rem;
+    padding: 4.2rem 3rem 1rem 4rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .desc {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .subscription-details,
+  .features {
+    flex: 1;
+  }
+
+  .subscription-details {
+    gap: 1.4rem;
+  }
+}
