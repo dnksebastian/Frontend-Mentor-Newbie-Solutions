@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 10px;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--very-light-gray);
+  background-color: var(--very-light-gray);
+}
+/* End of base styles */
+
+#component-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  height: 88.5%;
+  min-width: 325px;
+    min-height: 1325px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.component-fragment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(120, 80, 70, 50%);
+  height: 33.3%;
+  padding: 15%;
+}
+
+.component-fragment h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.component-fragment p {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: var(--transparent-white);
+}
+
+div.component-fragment:nth-child(1) {
+  background-color: var(--bright-orange);
+}
+div.component-fragment:nth-child(2) {
+  background-color: var(--dark-cyan);
+}
+div.component-fragment:nth-child(3) {
+  background-color: var(--very-dark-cyan);
+}
+
+.btn {
+  font-size: 1.5rem;
+  text-decoration: none;
+  letter-spacing: 0.08rem;
+  height: 4.9rem;
+  width: 64%;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.component-fragment .btn:hover, .component-fragment .btn:focus {
+    cursor: pointer;
+    border: 2px solid var(--very-light-gray);
+    color: var(--transparent-white);
+    background-color: transparent;
+}
+
+.component-fragment:nth-child(1) button {
+  color: var(--bright-orange);
+}
+.component-fragment:nth-child(2) button {
+  color: var(--dark-cyan);
+}
+.component-fragment:nth-child(3) button {
+  color: var(--very-dark-cyan);
+}
+
+/* Footer */
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--dark-cyan);
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--transparent-white);
+}
+
+@media screen and (min-width: 1000px) {
+  #component-wrapper {
+    flex-direction: row;
+    width: 64%;
+    height: 62.5%;
+    margin-top: 4.5rem;
+    min-width: 685px;
+    min-height: 500px
+  }
+
+  .component-fragment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 33.3%;
+    padding: 4.6rem;
+    padding-right: 4.9rem;
+  }
+
+  .component-fragment p {
+    font-size: 1.5rem;
+    color: var(--transparent-white);
+  }
+
+  .btn {
+    margin-top: 6.1rem;
+    width: 69%;
+  }
+
+  .attribution {
+    left: 33.3%;
+    width: 33.3%;
+  }
+}

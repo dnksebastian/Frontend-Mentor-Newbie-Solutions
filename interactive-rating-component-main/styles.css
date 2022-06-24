@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --custom-orange: hsl(25, 97%, 53%);
+  --custom-white: hsl(0, 0%, 100%);
+  --custom-light-grey: hsl(217, 12%, 63%);
+  --custom-medium-grey: hsl(216, 12%, 54%);
+  --custom-dark-blue: hsl(213, 19%, 18%);
+  --custom-very-dark-blue: hsl(216, 12%, 8%);
+}
+
+html {
+  font-family: "Overpass", sans-serif;
+  font-size: 10px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--custom-very-dark-blue);
+  color: var(--custom-medium-grey);
+}
+
+.component-wrapper {
+  background-color: var(--custom-dark-blue);
+  background: radial-gradient(circle at center top, hsla(212, 18%, 17%, 1) 25%, hsla(215, 27%, 12%, 1) 100%);
+  width: 87%;
+  border-radius: 13px;
+  padding: 2.3rem;
+  min-width: 326.25px;
+  height: 361px;
+}
+
+.icon-wrapper {
+  background-color: hsla(217, 12%, 63%, 9%);
+  background-image: url(./images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 50%;
+}
+
+.component-header {
+  color: var(--custom-white);
+  font-size: 2.4rem;
+  margin-top: 1.8rem;
+}
+
+.component-desc {
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  line-height: 2.1rem;
+}
+
+#rating-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars-wrapper {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="radio"] {
+  appearance: none;
+  font: inherit;
+  color: var(--custom-white);
+  width: 4.2rem;
+  height: 4.2rem;
+  border: none;
+  border-radius: 50%;
+  background-color: hsla(217, 12%, 63%, 9%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--custom-light-grey);
+}
+
+input[type="radio"]:hover {
+  background-color: var(--custom-orange);
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 700;
+  position: absolute;
+  cursor: pointer;
+}
+
+input[type="radio"]:hover + label,
+input[type="radio"]:focus + label,
+input[type="radio"]:checked + label {
+  color: var(--custom-white);
+}
+
+#submit-btn {
+  margin-top: 2.4rem;
+  font: inherit;
+  text-transform: uppercase;
+  color: var(--custom-white);
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  background-color: var(--custom-orange);
+  border: none;
+  border-radius: 3rem;
+  width: 100%;
+  height: 4.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#submit-btn:hover,
+#submit-btn:focus {
+  color: var(--custom-orange);
+  background-color: var(--custom-white);
+}
+
+.active-component {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.thankyou-view {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thankyou-view .img-wrapper {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 52%;
+}
+
+.ty-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.rating-info {
+  margin-top: 2.5rem;
+  color: var(--custom-orange);
+  font-size: 1.45rem;
+  background-color: hsla(217, 12%, 63%, 0.2);
+  border-radius: 2rem;
+  padding: 0.7rem 0;
+  width: 60%;
+}
+
+.ty-header {
+  margin-top: 2.4rem;
+  color: var(--custom-white);
+  font-size: 2.4rem;
+}
+
+.ty-desc {
+  margin-top: 1.3rem;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 480px) {
+  .component-wrapper {
+    background-color: var(--custom-dark-blue);
+    width: 41rem;
+    height: 41.5rem;
+    border-radius: 3rem;
+    padding: 3rem;
+    padding-right: 3.7rem;
+  }
+
+  .icon-wrapper {
+    margin-top: 0.2rem;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .component-header {
+    font-size: 2.8rem;
+    margin-top: 3rem;
+  }
+
+  .component-desc {
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+  }
+
+  input[type="radio"] {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  label {
+    font-size: 1.5rem;
+  }
+
+  #submit-btn {
+    margin-top: 3.3rem;
+    font-size: 1.5rem;
+  }
+
+  .thankyou-view .img-wrapper {
+    margin-top: 1.8rem;
+    width: 45%;
+  }
+
+  .rating-info {
+    margin-top: 3.5rem;
+    font-size: 1.5rem;
+    padding: 0.7rem 0;
+    width: 57%;
+  }
+
+  .ty-header {
+    margin-top: 3.3rem;
+    font-size: 2.75rem;
+  }
+
+  .ty-desc {
+    margin-top: 1.6rem;
+    font-size: 1.5rem;
+  }
+}
