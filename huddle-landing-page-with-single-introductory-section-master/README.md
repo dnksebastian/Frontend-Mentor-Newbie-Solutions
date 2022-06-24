@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-html-css-ffJbJLb-x](https://www.frontendmentor.io/solutions/huddle-landing-page-html-css-ffJbJLb-x)
-- Live Site URL: [https://dnksebastian.github.io/Huddle-Landing-Page/](https://dnksebastian.github.io/Huddle-Landing-Page/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/huddle-landing-page-with-single-introductory-section-master/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 

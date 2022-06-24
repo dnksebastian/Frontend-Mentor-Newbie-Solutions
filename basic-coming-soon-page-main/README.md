@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/vanilla-htmlcssjs-basic-responsive-coming-soon-page--BnbyFs-K](https://www.frontendmentor.io/solutions/vanilla-htmlcssjs-basic-responsive-coming-soon-page--BnbyFs-K)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/basic-coming-soon-page-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/basic-coming-soon-page-main/)
 
 
 ### Built with

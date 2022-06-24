@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://dnksebastian.github.io/nft-preview-card-component/]
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/nft-preview-card-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/nft-preview-card-component-main/)
 
 ## My process
 

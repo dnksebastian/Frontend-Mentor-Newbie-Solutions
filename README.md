@@ -17,10 +17,10 @@
 | Single Price Grind Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/single-price-grid-component-master/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/single-price-grid-component-master" target="_blank">Repo</a>  |
 | Social Proof Section | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/social-proof-section-master/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/social-proof-section-master" target="_blank">Repo</a>  |
 | Article Preview Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/article-preview-component-master/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/article-preview-component-master" target="_blank">Repo</a>  |
-| 9 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
-| 10 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
-| 11 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
-| 12 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
+| Basic Coming Soon Page | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/basic-coming-soon-page-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/basic-coming-soon-page-main" target="_blank">Repo</a>  |
+| Huddle Landing Page | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/huddle-landing-page-with-single-introductory-section-master/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/huddle-landing-page-with-single-introductory-section-master" target="_blank">Repo</a>  |
+| NFT Preview Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/nft-preview-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/nft-preview-card-component-main" target="_blank">Repo</a>  |
+| Order Summary Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/order-summary-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/order-summary-component-main" target="_blank">Repo</a>  |
 | 13 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
 | 14 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |
 | 15 | <a href="" target="_blank">Live</a>  | <a href="" target="_blank">Repo</a>  |

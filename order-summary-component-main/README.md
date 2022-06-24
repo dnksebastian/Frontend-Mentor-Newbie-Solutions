@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-htmlcss-order-summary-component-tRvdNfjKy](https://www.frontendmentor.io/solutions/responsive-htmlcss-order-summary-component-tRvdNfjKy)
-- Live Site URL: [https://dnksebastian.github.io/order-summary-component/](https://dnksebastian.github.io/order-summary-component/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/order-summary-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/order-summary-component-main/)
 
 ## My process
 
