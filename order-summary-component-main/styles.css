@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Custom properties - colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  /* Typography / fonts */
+  /* Weights: 500, 700, 900 */
+  font-size: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--dark-blue);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url("./images/pattern-background-mobile.svg") no-repeat top center;
+  background-size: contain;
+  background-color: #e0e8ff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  min-width: 375px;
+  min-height: 709px;
+}
+
+#component-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80%;
+  width: 87%;
+  max-width: 327px;
+  max-height: 567px;
+  background-color: white;
+  border-radius: 23px;
+  box-shadow: 0px 10px 30px var(--pale-blue);
+}
+
+/* Hero image styles */
+
+#img-wrapper {
+  width: 100%;
+  border-radius: 23px 23px 0 0;
+  object-fit: contain;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+#hero-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* End of hero image styles */
+
+/* Summary section styles */
+#summary-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 2rem; */
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 1.7rem;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  font-weight: 500;
+  padding: 0 3.5rem;
+}
+
+/* End of summary section */
+/* Order information section */
+
+#order-information-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 2rem;
+  padding: 1.7rem;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+}
+#order-information-wrapper a {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--bright-blue);
+  transition: 0.5s;
+}
+
+#order-information-wrapper a:hover,
+#order-information-wrapper a:focus {
+  color: hsl(225, 65%, 52%);
+  outline: none;
+}
+
+#helper {
+  display: flex;
+  align-items: center;
+}
+#helper span {
+  display: block;
+}
+
+#helper div {
+  height: 100%;
+  margin-left: 1.9rem;
+}
+
+#chosen-option {
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-bottom: 0.6rem;
+}
+#option-price {
+  font-size: 1.4rem;
+  color: var(--desaturated-blue);
+}
+
+/* End of order information section */
+/* Buttons styles */
+
+#buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 85%;
+  flex: 1;
+}
+
+#buttons-wrapper button {
+  font-size: 1.5rem;
+  font-weight: 900;
+  width: 100%;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#payment-proceed-btn {
+  background-color: var(--bright-blue);
+  color: white;
+  box-shadow: 0px 7px 5px var(--pale-blue);
+  transition: 0.5s;
+}
+#payment-proceed-btn:hover,
+#payment-proceed-btn:focus {
+  background-color: hsl(225, 65%, 52%);
+  outline: none;
+}
+
+#cancel-order-btn {
+  color: var(--dark-blue);
+  background: none;
+  transition: 0.5s;
+}
+
+#cancel-order-btn:hover,
+#cancel-order-btn:focus {
+  box-shadow: 0px 7px 10px var(--pale-blue);
+  outline: none;
+}
+
+/* End buttons styles */
+
+/*  Footer */
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+/* End footer section */
+
+/* Media queries */
+
+@media (min-width: 1047px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+
+  #component-wrapper {
+    max-width: 450px;
+    max-height: 695px;
+  }
+
+  #img-wrapper {
+    margin-bottom: 4.2rem;
+  }
+
+  h1 {
+    font-size: 2.9rem;
+  }
+
+  p {
+    padding: 0 5.5rem;
+    letter-spacing: 0.7px;
+  }
+
+  #order-information-wrapper {
+    width: 80%;
+    padding: 2.5rem;
+  }
+
+  #chosen-option,
+  #option-price {
+    font-size: 1.6rem;
+  }
+
+  #order-information-wrapper a {
+    font-size: 1.4rem;
+  }
+
+  #buttons-wrapper {
+    width: 80%;
+  }
+}

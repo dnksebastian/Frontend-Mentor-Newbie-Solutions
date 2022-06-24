@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/base.css">
+  <script src="./assets/scripts/main.js" defer></script>
+</head>
+
+<body>
+  <!-- Hero image for desktop resolutions -->
+  <div class="hero-desktop">
+    <img src="./assets/images/hero-desktop.jpg" alt="Desktop hero image" id="hero-desktop-image">
+  </div>
+
+  <!-- Desktop wrapper contains main page content -->
+  <div id="desktop-wrapper">
+    <header>
+      <img src="./assets/images/logo.svg" alt="Base Apparel Logo" id="logo">
+    </header>
+
+    <!-- End of header part -->
+
+    <main>
+      <div class="hero-mobile">
+        <img src="./assets/images/hero-mobile.jpg" alt="Mobile hero image" id="mobile-hero-img">
+      </div>
+
+      <div id="main-wrapper">
+
+        <section id="main-content">
+          <h1 id="main-header"><span class="highlighted-text">We're</span></br> coming soon</h1>
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </p>
+        </section>
+
+        <!-- End of main content part -->
+
+        <form>
+          <div class="input-btn-wrap">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email Address" id="email" required>
+            <button id="send-btn"><img src="./assets/images/icon-arrow.svg" alt="Arrow icon"></button>
+          </div>
+          <p class="error-hidden">Please provide a valid email</p>
+        </form>
+
+      </div>
+
+      <!-- End of form part -->
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Sebastian</a>.
+      </p>
+    </footer>
+  </div>
+
+  <!-- End of footer part -->
+</body>
+
+</html>
