@@ -128,7 +128,7 @@ main {
   background-color: var(--custom-dark-cyan);
   background-image: url(./images/icon-cart.svg);
   background-repeat: no-repeat;
-  background-position: left 33% center;
+  background-position: left calc(50% - 5rem) center;
   border-color: transparent;
   border-radius: 0.7rem;
   cursor: pointer;
@@ -187,6 +187,13 @@ main {
 }
 
 @media (min-width: 1439px) and (max-width: 1441px) {
+
+  .product-name {
+    padding-right: 1rem;
+    font-size: 3rem;
+  }
+
+
     main {
         margin: 12% auto auto auto;
     }

@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-product-preview-card-component-t51pvBX4QV](https://www.frontendmentor.io/solutions/html-css-product-preview-card-component-t51pvBX4QV)
 - Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/product-preview-card-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/product-preview-card-component-main/)
 
 ## My process
