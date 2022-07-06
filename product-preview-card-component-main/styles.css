@@ -186,11 +186,10 @@ main {
   }
 }
 
-@media (min-width: 1439px) and (max-width: 1441px) {
+@media (min-width: 1438px) and (max-width: 1442px) {
 
   .product-name {
-    padding-right: 1rem;
-    font-size: 3rem;
+    font-size: 3.6rem;
   }
 
 
