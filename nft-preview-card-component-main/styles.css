@@ -31,6 +31,7 @@ main {
   justify-content: center;
   height: 100vh;
   min-width: 375px;
+  min-height: 750px;
   background-color: var(--main-bg);
 }
 
@@ -67,6 +68,7 @@ main {
   background-image: url(./images/icon-view.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 #imgwrapper:hover:after {
   opacity: 50%;
@@ -100,6 +102,7 @@ p {
 h1 {
   font-size: 2rem;
   transition: 0.5s;
+  cursor: pointer;
 }
 h1:hover {
   color: var(--primary-cyan);
@@ -185,8 +188,28 @@ p {
 @media screen and (min-height: 675px) {
 
   #cardwrapper {
-    height: 530px;
+    height: 600px;
     max-width:355px;
   }
 
+
+  #imgwrapper {
+    height: 55%;
+  }
+
+
+  #datawrapper {
+    margin-top: 2.5rem;
+    gap: 1.7rem;
+  }
+
+  #helper {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  #author {
+    margin-top: 1.5rem;
+  }
+  
 }
