@@ -82,7 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* Mobile styles */
@@ -306,15 +306,25 @@ color: var(--custom-cobalt-blue-transparent);
 /* Mobile footer */
 
 footer {
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  /* margin-top: auto; */
 }
 
 /* Media queries */
 
 @media screen and (min-width: 750px) {
 
+  body {
+    justify-content: center;
+  }
+
   main {
     margin-top: auto;
+    margin-bottom: auto;
     flex-direction: row;
     align-items: stretch;
     max-width: 50rem;
@@ -385,6 +395,7 @@ footer {
 
   main {
     max-width: 73.5rem;
+    margin-bottom: auto;
   }
 
   .res-display, .details-summary {

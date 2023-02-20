@@ -9,6 +9,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -21,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-js-results-summary-component-jDJzJ4EGS1](https://www.frontendmentor.io/solutions/html-css-js-results-summary-component-jDJzJ4EGS1)
 - Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/results-summary-component-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/results-summary-component-main/)
 
 ## My process
@@ -33,3 +34,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### Useful resources
+
+- [https://css-tricks.com/examples/nth-child-tester/](https://css-tricks.com/examples/nth-child-tester/) - Used this to select proper list items

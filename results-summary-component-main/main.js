@@ -50,6 +50,7 @@ function renderDataEl(dataInput, container) {
     skillName.textContent = dataInput.category;
     detailScore.textContent = dataInput.score;
     iconImg.src = dataInput.icon;
+    iconImg.alt = 'icon';
 
     container.appendChild(liEl);
 };
