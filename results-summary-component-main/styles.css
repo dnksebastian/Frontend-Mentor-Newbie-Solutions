@@ -91,6 +91,7 @@ body {
 
 main {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -191,7 +192,7 @@ main > * {
 }
 
 .detail-li {
-    position: relative;
+  position: relative;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -209,11 +210,8 @@ main > * {
   position: absolute;
   border-radius: 1rem;
   inset: 0;
-  box-shadow: 
-  inset 1rem 1rem 0px -1.2rem, 
-  inset -1rem 1rem 0px -1.2rem, 
-  inset -1rem -1rem 0px -1.2rem,
-  inset 1rem -1rem 0px -1.2rem;
+  box-shadow: inset 1rem 1rem 0px -1.2rem, inset -1rem 1rem 0px -1.2rem,
+    inset -1rem -1rem 0px -1.2rem, inset 1rem -1rem 0px -1.2rem;
 }
 
 .detail-li:nth-child(4n + 1) {
@@ -237,7 +235,7 @@ main > * {
   background-color: var(--custom-green-teal-transparent);
 }
 .detail-li:nth-child(4n + 3)::after {
-color: var(--custom-green-teal-transparent);
+  color: var(--custom-green-teal-transparent);
 }
 
 .detail-li:nth-child(4n + 4) {
@@ -245,7 +243,7 @@ color: var(--custom-green-teal-transparent);
   background-color: var(--custom-cobalt-blue-transparent);
 }
 .detail-li:nth-child(4n + 4)::after {
-color: var(--custom-cobalt-blue-transparent);
+  color: var(--custom-cobalt-blue-transparent);
 }
 
 .icon-wrap {
@@ -305,28 +303,20 @@ color: var(--custom-cobalt-blue-transparent);
 
 /* Mobile footer */
 
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  /* margin-top: auto; */
-}
 
 /* Media queries */
 
 @media screen and (min-width: 750px) {
-
   body {
     justify-content: center;
   }
 
   main {
+    flex: none;
     margin-top: auto;
     margin-bottom: auto;
     flex-direction: row;
-    align-items: stretch;
+    /* align-items: stretch; */
     max-width: 50rem;
     /* background-color: rgba(0, 128, 0, 0.429); */
     border-radius: 3rem;
@@ -334,7 +324,8 @@ footer {
     box-shadow: 2rem 3rem 3rem -1rem var(--custom-pale-blue);
   }
 
-  .res-display, .details-summary {
+  .res-display,
+  .details-summary {
     padding: 1rem 2rem 1rem 2rem;
     gap: 1rem;
   }
@@ -345,7 +336,7 @@ footer {
 
   .res-label {
     font-size: 2rem;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
   }
 
   .res-circle {
@@ -388,24 +379,23 @@ footer {
   .score-helper {
     font-size: 1.2rem;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
-
   main {
     max-width: 73.5rem;
     margin-bottom: auto;
   }
 
-  .res-display, .details-summary {
+  .res-display,
+  .details-summary {
     padding: 3.5rem 4rem 3.5rem 4rem;
   }
 
   .res-label {
-    padding-top: .5rem;
+    padding-top: 0.5rem;
     font-size: 2.3rem;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
   }
 
   .res-circle {
@@ -447,6 +437,4 @@ footer {
   .score-helper {
     font-size: 1.8rem;
   }
-
-
 }
