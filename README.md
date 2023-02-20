@@ -26,6 +26,8 @@
 | Profile Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/profile-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/profile-card-component-main" target="_blank">Repo</a>  |
 | Stats Preview Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/stats-preview-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/stats-preview-card-component-main" target="_blank">Repo</a>  |
 | Product Preview Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/product-preview-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/product-preview-card-component-main/" target="_blank">Repo</a>  |
+| Results Summary Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/results-summary-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/results-summary-component-main/" target="_blank">Repo</a>  |
+| --- | <a href="#" target="_blank">Live</a>  | <a href="#" target="_blank">Repo</a>  |
 | --- | <a href="#" target="_blank">Live</a>  | <a href="#" target="_blank">Repo</a>  |
 | --- | <a href="#" target="_blank">Live</a>  | <a href="#" target="_blank">Repo</a>  |
 

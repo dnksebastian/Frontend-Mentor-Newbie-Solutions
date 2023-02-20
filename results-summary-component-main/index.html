@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src="./main.js" defer></script>
+
+</head>
+
+<body>
+
+  <main id="component-wrapper">
+    
+    <div class="helper res-display">
+      <span class="res-label">Your Result</span>
+      <div class="res-circle">
+        <span id="result">76</span>
+        <span>of 100</span>
+      </div>
+      <span id="res-desc">Great</span>
+      <p id="res-stat">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div class="helper details-summary">
+      <span class="det-label">Summary</span>
+
+      <ul id="details-list">
+
+        <li class="detail-li">
+          <div class="icon-wrap">
+            <img src="./assets/images/icon-reaction.svg" alt="" class="icon">
+          </div>
+          <span class="skill-name">Reaction</span>
+          <div class="detail score-helper">
+            <span class="detail-score" id="reaction-score">80</span>
+            <span>/ 100</span>
+          </div>
+        </li>
+
+        <li class="detail-li edges-effect">
+          <div class="icon-wrap">
+            <img src="./assets/images/icon-memory.svg" alt="" class="icon">
+          </div>
+          <span class="skill-name">Memory</span>
+          <div class="detail score-helper">
+            <span class="detail-score" id="memory-score">92</span>
+            <span>/ 100</span>
+          </div>
+        </li>
+
+        <li class="detail-li">
+          <div class="icon-wrap">
+            <img src="./assets/images/icon-verbal.svg" alt="" class="icon">
+          </div>
+          <span class="skill-name">Verbal</span>
+          <div class="detail score-helper">
+            <span class="detail-score" id="verbal-score">61</span>
+            <span>/ 100</span>
+          </div>
+        </li>
+
+        <li class="detail-li">
+          <div class="icon-wrap">
+            <img src="./assets/images/icon-visual.svg" alt="" class="icon">
+          </div>
+          <span class="skill-name">Visual</span>
+          <div class="detail score-helper">
+            <span class="detail-score" id="visual-score">72</span>
+            <span>/ 100</span>
+          </div>
+        </li>
+      </ul>
+      <a id="continue-btn" href="#/">Continue</a>
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="#">Sebastian</a>.</p>
+  </footer>
+</body>
+
+</html>
