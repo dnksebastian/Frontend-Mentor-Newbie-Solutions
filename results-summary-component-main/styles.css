@@ -78,6 +78,7 @@ html {
 
 body {
   min-height: 100vh;
+  min-width: 275px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,7 +94,7 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 40rem;
+  /* max-width: 40rem; */
   /* background-color: rgba(0, 128, 128, 0.353); */
 }
 
@@ -153,6 +154,7 @@ main > * {
 #res-stat {
   font-size: 1.6rem;
   opacity: 80%;
+  max-width: 30rem;
 }
 
 /* Details box mobile styles */
@@ -161,6 +163,7 @@ main > * {
   padding: 2.5rem 3rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2rem;
   color: var(--custom-dark-gray-blue);
   /* background-color: rgba(255, 192, 203, 0.349); */
@@ -171,7 +174,15 @@ main > * {
   font-weight: 700;
 }
 
+@media screen and (max-width: 400px) {
+  .det-label {
+    align-self: flex-start;
+  }
+}
+
 #details-list {
+  width: 100%;
+  max-width: 40rem;
   display: flex;
   flex-direction: column;
   padding: 0.5rem 0 1rem 0;
@@ -259,6 +270,8 @@ color: var(--custom-cobalt-blue-transparent);
 }
 
 #continue-btn {
+  width: 100%;
+  max-width: 32rem;
   position: relative;
   color: var(--custom-pale-blue);
   font-size: 1.8rem;
@@ -304,7 +317,7 @@ footer {
     margin-top: auto;
     flex-direction: row;
     align-items: stretch;
-    max-width: 73.5rem;
+    max-width: 50rem;
     /* background-color: rgba(0, 128, 0, 0.429); */
     border-radius: 3rem;
     overflow: hidden;
@@ -312,14 +325,70 @@ footer {
   }
 
   .res-display, .details-summary {
-    padding: 3.5rem 4rem 3.5rem 4rem;
+    padding: 1rem 2rem 1rem 2rem;
     gap: 1rem;
   }
 
   .res-display {
-    /* padding: 3rem 3rem 3rem 3rem; */
-    /* gap: 1rem; */
     border-radius: 3rem;
+  }
+
+  .res-label {
+    font-size: 2rem;
+    letter-spacing: .05rem;
+  }
+
+  .res-circle {
+    margin-top: 2rem;
+    padding: 2rem 4rem;
+  }
+
+  #result {
+    font-size: 4rem;
+  }
+
+  .res-circle span:nth-of-type(2) {
+    font-size: 1.4rem;
+  }
+
+  #res-desc {
+    padding-top: 2rem;
+    font-size: 1.8rem;
+  }
+
+  #res-stat {
+    max-width: 25rem;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .det-label {
+    align-self: flex-start;
+    font-size: 2rem;
+  }
+
+  #details-list {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .skill-name {
+    font-size: 1.2rem;
+  }
+
+  .score-helper {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  main {
+    max-width: 73.5rem;
+  }
+
+  .res-display, .details-summary {
+    padding: 3.5rem 4rem 3.5rem 4rem;
   }
 
   .res-label {
@@ -347,12 +416,12 @@ footer {
   }
 
   #res-stat {
-    max-width: 25rem;
-    padding-top: 0rem;
+    padding-top: 0;
     font-size: 1.8rem;
   }
 
   .det-label {
+    align-self: flex-start;
     font-size: 2.5rem;
   }
 
@@ -369,10 +438,4 @@ footer {
   }
 
 
-
-
-
-
-
 }
-
