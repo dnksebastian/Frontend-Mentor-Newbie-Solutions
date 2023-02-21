@@ -8,8 +8,8 @@ const scoresArr = [];
 
 // Functions
 
- async function getScoreData() {
-     await fetch('./data.json')
+  function getScoreData() {
+      fetch('./data.json')
       .then(response => response.json())
       .then(data => {
         data.forEach(obj => {
