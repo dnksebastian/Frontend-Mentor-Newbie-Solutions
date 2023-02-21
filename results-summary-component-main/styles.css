@@ -332,6 +332,7 @@ main > * {
 
   .res-display {
     border-radius: 3rem;
+    align-self: stretch;
   }
 
   .res-label {
@@ -390,6 +391,10 @@ main > * {
   .res-display,
   .details-summary {
     padding: 3.5rem 4rem 3.5rem 4rem;
+  }
+
+  .res-display {
+
   }
 
   .res-label {
