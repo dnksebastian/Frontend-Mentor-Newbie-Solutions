@@ -1,1 +1,9 @@
 **/design/
+
+# Other
+*.sketch
+*.xd
+*.fig
+.prettierignore
+
+.DS_Store

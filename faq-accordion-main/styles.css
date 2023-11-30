@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+/* Global, reset & typography */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  cursor: pointer;
+  font: inherit;
+  transition: 0.3s;
+  border: 1px solid grey;
+  background-color: transparent;
+}
+
+:root {
+  --cs-main-font: "Work Sans", sans-serif;
+
+  /* ## Colors */
+  /* --cs-white: hsl(0, 0%, 100%);
+  --cs-light-pink: hsl(275, 100%, 97%);
+  --cs-grayish-purple: hsl(292, 16%, 49%);
+  --cs-dark-purple: hsl(292, 42%, 14%);
+  --cs-cyan: hsl(280, 62%, 51%); */
+
+  --cs-white: 0, 0%, 100%;
+  --cs-light-pink: 275, 100%, 97%;
+  --cs-grayish-purple: 292, 16%, 49%;
+  --cs-dark-purple: 292, 42%, 14%;
+  --cs-cyan: 280, 62%, 51%;
+}
+
+html {
+  font-family: var(--cs-main-font);
+  font-size: 10px;
+}
+
+body {
+  position: relative;
+  display: grid;
+  min-height: 100svh;
+  min-height: 100vh; /*fallback*/
+  overflow-x: hidden;
+}
+
+html,
+body {
+  min-width: 30rem;
+}
+
+/* Utility classes */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}
+
+/* Common */
+p {
+  color: hsla(var(--cs-grayish-purple), 100%);
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsla(var(--cs-dark-purple), 100%);
+}
+
+/* Mobile styles */
+
+body {
+  position: relative;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3rem;
+  background-color: hsla(var(--cs-light-pink), 100%);
+}
+
+body::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 23.2rem;
+  background-color: hsla(var(--cs-light-pink), 100%);
+  background-image: url(./assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  z-index: 0;
+}
+
+main {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 1;
+}
+
+.component-wrapper {
+  margin-top: 11.7rem;
+  /* padding: 2.5rem 2.5rem 0rem 2.5rem; */
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: hsla(var(--cs-white), 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.component-desc-wrap {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.logo-wrap {
+  max-width: 2.2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+.faqs-wrap,
+.faq-el {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-el {
+    /* padding: 2.5rem 0rem; */
+    padding: 1.5rem 0rem 1rem 0rem;
+    background-color: rgba(0, 128, 0, 0.459);
+    border-bottom: 1px solid red;
+}
+
+.faq-el:last-of-type {
+    border-bottom: 1px solid transparent;
+}
+
+.faqs-wrap,
+.faq-el,
+.faq label,
+.faq-answer {
+  width: 100%;
+}
+
+.faq-el label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: teal;
+  padding: 1rem 0rem;
+}
+
+.faq-question {
+    font-weight: 700;
+    font-size: 1.57rem;
+    padding-right: 4rem;
+}
+
+.faq-answer {
+    background-color: pink;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 1rem 0rem;
+    display: none;
+}
+
+.faq-el:nth-of-type(1) .faq-answer {
+    display: flex;
+}
+
+footer {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Media queries */
+/* Desktop styles */

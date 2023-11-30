@@ -2,7 +2,7 @@
 
 <p align="center">This is a collection of my newbie level challenges from <a href="https://www.frontendmentor.io/" target="_blank">FrontendMentor.io</a></p>
 
-<h2 align="center"><a href="https://www.frontendmentor.io/profile/dnksebastian" target="_blank">My FrontendMentor Profile</a></h2>
+<h2 align="center"><a href="https://www.frontendmentor.io/profile/dnksebastian" target="_blank">My FrontendMentor Profile</a>  :shipit:</h2>
 
 <div align="center">
 ## Junior Challenges
@@ -27,8 +27,8 @@
 | Stats Preview Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/stats-preview-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/stats-preview-card-component-main" target="_blank">Repo</a>  |
 | Product Preview Card Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/product-preview-card-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/product-preview-card-component-main/" target="_blank">Repo</a>  |
 | Results Summary Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/results-summary-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/results-summary-component-main/" target="_blank">Repo</a>  |
-| --- | <a href="#" target="_blank">Live</a>  | <a href="#" target="_blank">Repo</a>  |
-| --- | <a href="#" target="_blank">Live</a>  | <a href="#" target="_blank">Repo</a>  |
-| --- | <a href="#" target="_blank">Live</a>  | <a href="#" target="_blank">Repo</a>  |
+| FAQ Accordion | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/faq-accordion-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/faq-accordion-main/" target="_blank">Repo</a>  |
+| --- | <a href="#/" target="_blank">Live</a>  | <a href="#/" target="_blank">Repo</a>  |
+| --- | <a href="#/" target="_blank">Live</a>  | <a href="#/" target="_blank">Repo</a>  |
 
 </div>
