@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-faq-accordion-x3nrTOPymz](https://www.frontendmentor.io/solutions/html-css-faq-accordion-x3nrTOPymz)
 - Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/faq-accordion-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/faq-accordion-main/)
 
 ## My process
