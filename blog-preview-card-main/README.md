@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-blog-preview-card-OCG66ZMpPE](https://www.frontendmentor.io/solutions/html-css-blog-preview-card-OCG66ZMpPE)
 - Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/blog-preview-card-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/blog-preview-card-main/)
 
 ## My process
