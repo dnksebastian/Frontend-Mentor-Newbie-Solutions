@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/html-css-social-links-profile-DJuWERYJ8E](https://www.frontendmentor.io/solutions/html-css-social-links-profile-DJuWERYJ8E)
-- Live Site URL: [https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/social-links-profile-main/](https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/social-links-profile-main/)
+- Live Site URL: [https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/social-links-profile-main/](https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/social-links-profile-main/)
 
 ## My process
 
