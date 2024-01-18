@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-social-links-profile-DJuWERYJ8E](https://www.frontendmentor.io/solutions/html-css-social-links-profile-DJuWERYJ8E)
 - Live Site URL: [https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/social-links-profile-main/](https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/social-links-profile-main/)
 
 ## My process
