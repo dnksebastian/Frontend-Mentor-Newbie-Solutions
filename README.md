@@ -29,5 +29,8 @@
 | Results Summary Component | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/results-summary-component-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/results-summary-component-main/" target="_blank">Repo</a>  |
 | FAQ Accordion | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/faq-accordion-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/faq-accordion-main/" target="_blank">Repo</a>  |
 | Blog Preview Card | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/blog-preview-card-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/blog-preview-card-main/" target="_blank">Repo</a>  |
+| Social Links Profile | <a href="https://dnksebastian.github.io/Frontend-Mentor-Newbie-Solutions/social-links-profile-main/" target="_blank">Live</a>  | <a href="https://github.com/dnksebastian/Frontend-Mentor-Newbie-Solutions/tree/main/social-links-profile-main/" target="_blank">Repo</a>  |
+| --- | <a href="#/" target="_blank">Live</a>  | <a href="#/" target="_blank">Repo</a>  |
+| --- | <a href="#/" target="_blank">Live</a>  | <a href="#/" target="_blank">Repo</a>  |
 | --- | <a href="#/" target="_blank">Live</a>  | <a href="#/" target="_blank">Repo</a>  |
 | --- | <a href="#/" target="_blank">Live</a>  | <a href="#/" target="_blank">Repo</a>  |

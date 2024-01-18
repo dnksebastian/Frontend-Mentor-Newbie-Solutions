@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* Global, reset & typography */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  --cs-main-font: "Inter", sans-serif;
+
+  /* ## Colors */
+  /* ### Primary */
+
+  --cs-green: 75, 94%, 57%;
+  /* --cs-green: hsl(75, 94%, 57%); */
+
+  /* ### Neutral */
+
+  --cs-white: 0, 0%, 100%;
+  --cs-grey: 0, 0%, 20%;
+  --cs-dark-grey: 0, 0%, 12%;
+  --cs-off-black: 0, 0%, 8%;
+
+  /* --cs-white: hsl(0, 0%, 100%); */
+  /* --cs-grey: hsl(0, 0%, 20%); */
+  /* --cs-dark-grey: hsl(0, 0%, 12%); */
+  /* --cs-off-black: hsl(0, 0%, 8%); */
+}
+
+html {
+  font-family: var(--cs-main-font);
+  font-size: 10px;
+}
+
+body {
+  position: relative;
+  display: grid;
+  min-height: 100svh;
+  min-height: 100vh; /*fallback*/
+  overflow-x: hidden;
+}
+
+html,
+body {
+  min-width: 30rem;
+}
+
+/* Common */
+
+p, span {
+  color: hsla(var(--cs-white), 100%);
+  font-size: 1.2rem;
+}
+
+/* Mobile styles */
+body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3rem;
+    background-color: hsla(var(--cs-off-black), 100%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    /* padding-top: 11.5rem; */
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: hsla(var(--cs-dark-grey), 100%);
+    width: 92.5%;
+    max-width: 35rem;
+    transform: translate(0, 1.2rem);
+}
+
+.profile-info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1rem;
+}
+
+.avatar-wrap {
+    max-width: 8.7rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-nameloc {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .7rem;
+}
+
+.user-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.user-location {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: hsla(var(--cs-green), 100%);
+}
+
+.user-desc {
+    margin-top: .5rem;
+    font-size: 1.4rem;
+}
+
+.profile-links {
+    width: 100%;
+    padding: .5rem 1rem .7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.profile-link {
+    display: block;
+    color: hsla(var(--cs-white), 100%);
+    background-color: hsla(var(--cs-grey), 100%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.profile-link:hover {
+    color: hsla(var(--cs-dark-grey), 100%);
+    background-color: hsla(var(--cs-green), 100%);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    font-weight: 600;
+    color: hsla(var(--cs-green), 70%);
+}
+
+footer a:hover {
+    color: hsla(var(--cs-green), 100%);
+}
+
+/* Media queries */
+/* ... */
+/* Desktop styles */
