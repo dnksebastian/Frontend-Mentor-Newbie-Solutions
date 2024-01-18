@@ -32,7 +32,6 @@ img {
   /* ### Primary */
 
   --cs-green: 75, 94%, 57%;
-  /* --cs-green: hsl(75, 94%, 57%); */
 
   /* ### Neutral */
 
@@ -40,11 +39,6 @@ img {
   --cs-grey: 0, 0%, 20%;
   --cs-dark-grey: 0, 0%, 12%;
   --cs-off-black: 0, 0%, 8%;
-
-  /* --cs-white: hsl(0, 0%, 100%); */
-  /* --cs-grey: hsl(0, 0%, 20%); */
-  /* --cs-dark-grey: hsl(0, 0%, 12%); */
-  /* --cs-off-black: hsl(0, 0%, 8%); */
 }
 
 html {
@@ -185,5 +179,12 @@ footer a:hover {
 }
 
 /* Media queries */
-/* ... */
 /* Desktop styles */
+
+@media screen and (min-width: 985px) {
+  .card-wrapper {
+    padding: 3rem;
+    max-width: 38rem;
+  }
+}
+
