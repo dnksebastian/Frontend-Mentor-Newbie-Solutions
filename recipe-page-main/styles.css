@@ -297,7 +297,7 @@ footer a:hover {
     /* justify-content: center; */
     /* padding: 2rem; */
     /* Using hardcoded value instead because of Frontend Mentor screenshot issue */
-    padding: 11.2rem 2rem 2rem 2rem;
+    padding: 11.2rem 2rem 10rem 2rem;
   }
 
   .recipe-wrapper {
