@@ -294,8 +294,10 @@ footer a:hover {
 
 @media screen and (min-width: 785px) {
   main {
-    justify-content: center;
-    padding: 2rem;
+    /* justify-content: center; */
+    /* padding: 2rem; */
+    /* Using hardcoded value instead because of Frontend Mentor screenshot issue */
+    padding: 11.2rem 2rem 2rem 2rem;
   }
 
   .recipe-wrapper {
